@@ -1,0 +1,24 @@
+{
+    "name": "shikshak-saathi-backend",
+    "version": "1.0.0",
+    "description": "Backend API for Shikshak Saathi",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "node --watch index.js"
+    },
+    "keywords": [
+        "education",
+        "ai",
+        "teaching"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "@google/generative-ai": "^0.21.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "express": "^4.21.0"
+    }
+}
